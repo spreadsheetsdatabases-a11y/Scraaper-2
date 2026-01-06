@@ -70,7 +70,7 @@ def fetch_data_with_retry(session, url, retries=10, delay=1):
 
 # ------------------------ ACCOUNTS ------------------------
 accounts = [
-    {"username": "amarbhavsarb@gmail.com",     "password": "abcd@0000", "url": "https://www.screener.in/screens/1790669/ttyy/?page={}", "range": "A1:T6000",  "add_classification": True},
+    {"username": "spreadsheetsdatabases+1@gmail.com",     "password": "abcd@0000", "url": "https://www.screener.in/screens/3416049/ttt/?page={}", "range": "A1:T6000",  "add_classification": True},
     {"username": "amarbhavsarb+2@gmail.com",   "password": "abcd@0000", "url": "https://www.screener.in/screens/1790603/ttyy/?page={}", "range": "Z1:AQ6000", "add_classification": False},
     {"username": "amarbhavsarb+3@gmail.com",   "password": "abcd@0000", "url": "https://www.screener.in/screens/1790798/ttyy/?page={}", "range": "AY1:BP6000", "add_classification": False},
     {"username": "amarbhavsarb+4@gmail.com",   "password": "abcd@0000", "url": "https://www.screener.in/screens/2113854/ttyy/?page={}", "range": "BX1:CO6000", "add_classification": False},
