@@ -71,18 +71,16 @@ def fetch_data_with_retry(session, url, retries=10, delay=1):
 # ------------------------ ACCOUNTS (MODIFIED WITH 10 ACCOUNTS) ------------------------
 # हर अकाउंट पिछले अकाउंट के स्टार्ट कॉलम से ठीक 25 कॉलम आगे शुरू हो रहा है।
 accounts = [
-    {"username": "spreadsheetsdatabases+1@gmail.com", "password": "abcd@0000", "url": "https://www.screener.in/screens/3416049/ttt/?page={}", "range": "A1:T6000",   "add_classification": True},
-    {"username": "amarbhavsarb+2@gmail.com",           "password": "abcd@0000", "url": "https://www.screener.in/screens/1790603/ttyy/?page={}", "range": "Z1:AQ6000",  "add_classification": False},
-    {"username": "amarbhavsarb+3@gmail.com",           "password": "abcd@0000", "url": "https://www.screener.in/screens/1790798/ttyy/?page={}", "range": "AY1:BP6000", "add_classification": False},
-    {"username": "amarbhavsarb+4@gmail.com",           "password": "abcd@0000", "url": "https://www.screener.in/screens/2113854/ttyy/?page={}", "range": "BX1:CO6000", "add_classification": False},
-    {"username": "amarbhavsarb+5@gmail.com",           "password": "abcd@0000", "url": "https://www.screener.in/screens/2358928/ttyy/?page={}", "range": "CW1:DN6000", "add_classification": False},
-    
-    # नए जोड़े गए अकाउंट्स (सीक्वेंस: पिछला कॉलम + 25)
-    {"username": "amarbhavsarb+6@gmail.com",           "password": "abcd@0000", "url": "https://www.screener.in/screens/XXXXXXX/ttyy/?page={}", "range": "DV1:EM6000", "add_classification": False},
-    {"username": "amarbhavsarb+7@gmail.com",           "password": "abcd@0000", "url": "https://www.screener.in/screens/XXXXXXX/ttyy/?page={}", "range": "EU1:FL6000", "add_classification": False},
-    {"username": "amarbhavsarb+8@gmail.com",           "password": "abcd@0000", "url": "https://www.screener.in/screens/XXXXXXX/ttyy/?page={}", "range": "FT1:GK6000", "add_classification": False},
-    {"username": "amarbhavsarb+9@gmail.com",           "password": "abcd@0000", "url": "https://www.screener.in/screens/XXXXXXX/ttyy/?page={}", "range": "GS1:HJ6000", "add_classification": False},
-    {"username": "amarbhavsarb+10@gmail.com",          "password": "abcd@0000", "url": "https://www.screener.in/screens/XXXXXXX/ttyy/?page={}", "range": "HR1:II6000", "add_classification": False},
+    {"username": "spreadsheetsdatabases+1@gmail.com", "password": "abcd@0000", "url": "https://www.screener.in/screens/3425981/ttt/?page={}", "range": "A1:T6000",   "add_classification": True},
+    {"username": "spreadsheetsdatabases+2@gmail.com",           "password": "abcd@0000", "url": "https://www.screener.in/screens/3425981/ttt/?page={}", "range": "Z1:AQ6000",  "add_classification": False},
+    {"username": "spreadsheetsdatabases+3@gmail.com",           "password": "abcd@0000", "url": "https://www.screener.in/screens/3425997/ttt/?page={}", "range": "AY1:BP6000", "add_classification": False},
+    {"username": "spreadsheetsdatabases+4@gmail.com",           "password": "abcd@0000", "url": "https://www.screener.in/screens/3426003/ttt/?page={}", "range": "BX1:CO6000", "add_classification": False},
+    {"username": "spreadsheetsdatabases+5@gmail.com",           "password": "abcd@0000", "url": "https://www.screener.in/screens/3426005/ttt/?page={}", "range": "CW1:DN6000", "add_classification": False},
+    {"username": "spreadsheetsdatabases+6@gmail.com",           "password": "abcd@0000", "url": "https://www.screener.in/screens/3426009/ttt/?page={}", "range": "DV1:EM6000", "add_classification": False},
+    {"username": "spreadsheetsdatabases+7@gmail.com",           "password": "abcd@0000", "url": "https://www.screener.in/screens/3426017/ttt/?page={}", "range": "EU1:FL6000", "add_classification": False},
+    {"username": "spreadsheetsdatabases+8@gmail.com",           "password": "abcd@0000", "url": "https://www.screener.in/screens/3426027/ttt/?page={}", "range": "FT1:GK6000", "add_classification": False},
+    {"username": "spreadsheetsdatabases+9@gmail.com",           "password": "abcd@0000", "url": "https://www.screener.in/screens/3426031/ttt/?page={}", "range": "GS1:HJ6000", "add_classification": False},
+    {"username": "spreadsheetsdatabases+10@gmail.com",          "password": "abcd@0000", "url": "https://www.screener.in/screens/3426038/ttt/?page={}", "range": "HR1:II6000", "add_classification": False},
 ]
 
 sheet_url = 'https://docs.google.com/spreadsheets/d/1aWHNmBkkTDnWLhMJwbErc6gs6Vtl78LW0kM4-I6Kj4o/edit?gid=0#gid=0'
